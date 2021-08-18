@@ -2,6 +2,56 @@
 	box-sizing: border-box;
 }
 
+:root {
+	--primary-dark: #23242b;
+	--btn-1: #c40000;
+	--btn-2: #01750b;
+}
+
 body {
 	margin: 0;
+	min-height: 100vh;
+	text-align: center;
+	color: var(--primary-dark);
+	background-image: url(images/station.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+h1 {
+	letter-spacing: 0.125em;
+	text-transform: capitalize;
+}
+
+h2 {
+	font-size: 4rem;
+	margin: 0.75em 0;
+}
+
+.btn {
+	color: #FFFFFF;
+	padding: 0.75em 1.8em;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 0.25em;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.btn + .btn {
+	margin-left: 0.25em;
+}
+
+#increment-btn {
+	background-color: var(--btn-1);
+}
+
+#save-btn {
+	background-color: var(--btn-2);
+}
+
+#entries-log {
+	font-weight: bold;
 }
