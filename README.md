@@ -19,12 +19,12 @@ The app should count each entry of person/s entering the station and display the
 
 ### Screenshot 
 
-
+![Screenshot 2021-08-18 at 16-51-20 Passenger Counter App](https://user-images.githubusercontent.com/84665360/129923474-db73fd45-13b5-492d-9545-dcb94d608d71.png)
 
 ### Links
 
-- [Solution Repo:] (https://github.com/ZaidMarrie/passenger_counter-app)
-- [Live Demo:] (https://zaidmarrie.github.io/passenger_counter-app/)
+- [Solution Repo:](https://github.com/ZaidMarrie/passenger_counter-app)
+- [Live Demo:](https://zaidmarrie.github.io/passenger_counter-app/)
 
 ## My process
 
