@@ -13,7 +13,7 @@ body {
 	min-height: 100vh;
 	text-align: center;
 	color: var(--primary-dark);
-	background-image: url(images/station.jpg);
+	background-image: url(station.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
