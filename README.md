@@ -40,15 +40,18 @@ This challenge taught me how to use the onclick event to invoke a function.
 
 Below I added some code snippets:
 
-```html
-<a href="#" class="btn" id="increment-btn" onclick="increment()">Increment</a>
-```
-
 ```js
-function increment() {
+incrementBtn.addEventListener('click', () => {
     count++;
     countDisplay.textContent = count;
-}
+});
+
+saveBtn.addEventListener('click', () => {
+    let countStr = count + " - ";
+    saveEl.textContenttStr;
+    countEl.textContent = 0;
+    count = 0;
+});
 ```
 
 ## Supporting Scrimba
