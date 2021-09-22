@@ -11,7 +11,7 @@ incrementBtn.addEventListener('click', () => {
 
 saveBtn.addEventListener('click', () => {
     let countStr = count + " - ";
-    saveEl.textContenttStr;
+    saveEl.textContent += countStr;
     countEl.textContent = 0;
     count = 0;
 });
