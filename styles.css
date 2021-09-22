@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     background-image: url("station.jpg");
     background-size: cover;
     text-align: center;
@@ -31,5 +32,11 @@ button {
 
 #save-btn {
     background: green;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 750px;
 }
 
