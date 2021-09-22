@@ -36,7 +36,7 @@ The app should count each entry of person/s entering the station and display the
 
 ### What I learned
 
-This challenge taught me how to use the onclick event to invoke a function.
+This challenge taught me how to use the onclick event to invoke a function, however with my second attempt I completed this challenge with arrow functions and `.addEventListener()` method.
 
 Below I added some code snippets:
 
@@ -48,7 +48,7 @@ incrementBtn.addEventListener('click', () => {
 
 saveBtn.addEventListener('click', () => {
     let countStr = count + " - ";
-    saveEl.textContenttStr;
+    saveEl.textContent += countStr;
     countEl.textContent = 0;
     count = 0;
 });
